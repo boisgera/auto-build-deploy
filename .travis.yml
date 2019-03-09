@@ -1,0 +1,15 @@
+dist: xenial
+language: bash
+
+script: 
+  - cp a.txt a.txt.out
+  - echo OUTPUT >> a.txt.out
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  
+  on:
+    branch: master
+
+
