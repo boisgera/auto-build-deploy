@@ -2,7 +2,7 @@ dist: xenial
 language: bash
 
 script: 
-  - cp a.txt a.txt.out
+  - cp a.txt a.txt.out 
   - echo OUTPUT >> a.txt.out
 
 deploy:
