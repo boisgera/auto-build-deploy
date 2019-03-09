@@ -4,6 +4,7 @@ language: bash
 script: 
   - cp a.txt a.txt.out  
   - printf "\nOUTPUT" >> a.txt.out
+  - echo "sdsdjsqld" >> stuff.tmp
 
 deploy:
   provider: pages
