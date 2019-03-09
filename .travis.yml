@@ -3,7 +3,7 @@ language: bash
 
 script: 
   - cp a.txt a.txt.out  
-  - echo "\nOUTPUT" >> a.txt.out
+  - printf "\nOUTPUT" >> a.txt.out
 
 deploy:
   provider: pages
